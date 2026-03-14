@@ -13,6 +13,9 @@ Clone the repository:
 PowerShell: 
 	git clone <your-repository-url>
 	cd AccountTestProgram
+	
+Please remember to update the src/account_test_program 
+"/*Please add the drive letter you wish to use, for example C:\\*/"
 Build the project:
 To build the executable in debug mode:
 PowerShell
