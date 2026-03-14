@@ -105,7 +105,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     // ==================================================
     // FIND CSV FILE
     // ==================================================
-    let csv_path: Option<PathBuf> = WalkDir::new("E:\\")
+    let csv_path: Option<PathBuf> = WalkDir::new("/*Please add the drive letter you wish to use, for example C:\\*/")
         .into_iter()
         .filter_map(Result::ok)
         .find(|entry| {
