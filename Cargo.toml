@@ -1,0 +1,12 @@
+[package]
+name = "AccountTestProgram"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "account_test_program"
+path = "src/account_test_program.rs"
+
+[dependencies]
+csv = "1.4.0"
+walkdir = "2.5.0"
